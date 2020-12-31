@@ -4,6 +4,10 @@ function soSanh(event){
     var number2 = document.getElementById("number__2").value;
     var number3 = document.getElementById("number__3").value;
     
+    number1 = parseFloat(number1);
+    number2 = parseFloat(number2);
+    number3 = parseFloat(number3);
+
     var minNumber = 0;
     var maxNumber = 0;
     var secondNumber = 0;
